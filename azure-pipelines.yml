@@ -18,4 +18,5 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 settings:
-- task: whitesource@20
+- task: WhiteSource@20
+  inputs:
